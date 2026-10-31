@@ -197,9 +197,18 @@ CSL 文件会在 `typst init` 时被复制到你的项目目录，与 `reference
 
 ---
 
+## 许可
+
+- 包代码（如 `journal.typ`）：**MIT**，见 `LICENSE`。
+- 初始化模板目录 `template/`（会被复制到用户项目、并由用户修改）：**MIT-0**（MIT No Attribution，无需署名、无需分发许可文本），见 `LICENSE-MIT-0`。
+
+按 Typst 对模板包的建议，模板目录使用无需署名的许可，便于用户无限制地使用和分发自己修改后的稿件。
+
+---
+
 ## 发布前待办
 
-- [x] 已填写 `authors`、`license`（MIT）、`repository`
-- [x] 已添加 `LICENSE`
+- [x] 已填写 `authors`、`license`（MIT AND MIT-0）、`repository`
+- [x] 已添加 `LICENSE` / `LICENSE-MIT-0`
 - [ ] 确认/替换 `thumbnail.png`（当前为示例第 5 页的渲染图，可替换）
 - [ ] 对照《现代化工》最新投稿规范核实排印细节（当前系根据作者稿件重建，未逐条核实）
