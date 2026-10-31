@@ -1,0 +1,23 @@
+# clear-mci — 面向《现代化工》的社区 Typst 模板
+#
+# ⚠ 提交到 GitHub / Typst Universe 前必填下面三项（由作者自行决定，本仓库不代选）：
+#   - authors    作者署名
+#   - license    许可证，须为合法 SPDX 标识符（如 MIT / Apache-2.0 / CC-BY-4.0）
+#                并建议在仓库根目录添加同名 LICENSE 文件
+#   - repository 源码仓库地址（推送到 GitHub 后填写）
+
+[package]
+name = "clear-mci"
+version = "0.1.0"
+entrypoint = "journal.typ"
+authors = ["TODO: 作者姓名 <you@example.com>"]
+license = "TODO"
+repository = "TODO: https://github.com/<you>/clear-mci"
+description = "面向《现代化工》期刊中文稿件的社区 Typst 模板（非期刊官方认证）"
+keywords = ["modern-chemical-industry", "journal", "article", "chinese", "chemistry"]
+categories = ["article"]
+
+[template]
+path = "template"
+entrypoint = "main.typ"
+thumbnail = "thumbnail.png"
