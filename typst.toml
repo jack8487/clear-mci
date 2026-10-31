@@ -6,7 +6,7 @@
 name = "clear-mci"
 version = "0.1.0"
 entrypoint = "journal.typ"
-authors = ["jack_clear jacklikejava@gmail.com"]
+authors = ["jack_clear <jacklikejava@gmail.com>"]
 license = "MIT"
 repository = "https://github.com/jack8487/clear-mci"
 description = "面向《现代化工》期刊中文稿件的社区 Typst 模板（非期刊官方认证）"
